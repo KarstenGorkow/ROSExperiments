@@ -1,0 +1,6 @@
+#!/bin/bash
+bash --rcfile <(echo '. $(HOME)/.bashrc; docker exec -it ${MY_ROS_CONT_NAME} /bin/bash')
+ 
+
+
+
